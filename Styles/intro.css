@@ -8,26 +8,26 @@ body{
 
 @font-face {
   font-family: 'Borda_Reg';
-  src: url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Reg.ttf') format('truetype'); 
-  src:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Reg.WOFF') format('woff');
+  src: url('https://tristansmartpixel.tv/pagersmartpixel.github.io/Fonts/Borda_Reg.ttf') format('truetype'); 
+  src:url('https://tristansmartpixel.tv/pagersmartpixel.github.io/Fonts/Borda_Reg.WOFF') format('woff');
 }  
 
 @font-face {
   font-family: 'Borda_Bold';
-  src: url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Bold.ttf') format('truetype'); 
- 
+  src: url('https://tristansmartpixel.tv/pagersmartpixel.github.io/Fonts/Borda_Bold.ttf') format('truetype'); 
+  src:url('https://tristansmartpixel.tv/pagersmartpixel.github.io/Fonts/Borda_Bold.WOFF') format('woff');
 }  
 
 @font-face {
   font-family: 'Borda_Light';
-  src: url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Light.ttf') format('truetype'); 
-  src:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Light.WOFF') format('woff');
+  src: url('https://tristansmartpixel.tv/pagersmartpixel.github.io/Fonts/Borda_Light.ttf') format('truetype'); 
+  src:url('https://tristansmartpixel.tv/pagersmartpixel.github.io/Fonts/Borda_Light.WOFF') format('woff');
 }  
 
 @font-face {
   font-family: 'Planer_Reg';
-  src: url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Planer_Reg.ttf') format('truetype'); 
-  src:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Planer_Reg.WOFF') format('woff');
+  src: url('https://tristansmartpixel.tv/pagersmartpixel.github.io/Fonts/Planer_Reg.ttf') format('truetype'); 
+  src:url('https://tristansmartpixel.tv/pagersmartpixel.github.io/Fonts/Planer_Reg.WOFF') format('woff');
 }  
 
 
@@ -349,7 +349,7 @@ header h1{
 
 
 #section-contact-bg{
-	background-image:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Images/Contact_BG.jpg');
+	background-image:url('https://tristansmartpixel.tv/pagersmartpixel.github.io/Images/Contact_BG.jpg');
 	background-size:110vw 110vw;
     background-position:center center;
     background-repeat:no-repeat;
@@ -923,7 +923,7 @@ section{
 }
 
 #section-contact-bg{
-	background-image:url(https://tristansmartpixeltv/pagersmartpixel.github.io/Images/Contact_BG.jpg);
+	background-image:url(https://tristansmartpixel.tv/pagersmartpixel.github.io/Images/Contact_BG.jpg);
 	background-size:200vw 200vh;
 	background-position:center center;
 	background-repeat:no-repeat;
