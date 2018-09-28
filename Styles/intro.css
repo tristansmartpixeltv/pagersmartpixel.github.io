@@ -166,14 +166,16 @@ header h1{
     height:auto;
     margin:0;
     padding:0;
+
 }
+
 
 .section-about-video-content{
 	position: absolute;
     bottom: 0;
     top:0;
     left:0;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.7);
     color: #f1f1f1;
     height:inherit;
     width:inherit;
@@ -262,7 +264,7 @@ header h1{
 	table-layout:fixed; 
 	width:100vw;
 	border-spacing:0 200px;
-	
+
 }
 
 
