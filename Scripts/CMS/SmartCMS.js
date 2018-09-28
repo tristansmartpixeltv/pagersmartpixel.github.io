@@ -7,7 +7,7 @@ var smartCms = function(ProjectID,Host,ProjectEnvironment,Version,DataTableNames
     this.Version = Version;
     this.DatatableNames = DataTableNames;
 
-    this.path = "../../JSON/"
+    this.path = "pagersmartpixel.github.io/../JSON/"
 
    
 }
