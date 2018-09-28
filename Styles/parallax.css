@@ -14,7 +14,7 @@
 
 
 #main-background{
-background-image:url('../Images/Parallax/Splash_Background.jpg');
+background-image:url('pagersmartpixel.github.io/Images/Parallax/Splash_Background.jpg');
 background-size:cover;
 background-position:center center;
 background-repeat:no-repeat;
@@ -34,7 +34,7 @@ margin: 0 auto;
 
 
 #main-layer-3{
-background-image:url('../Images/Parallax/Home_Parallax_Level3.png');
+background-image:url('pagersmartpixel.github.io/Images/Parallax/Home_Parallax_Level3.png');
 background-size:cover;
 background-position:center center;
 background-repeat:no-repeat;
@@ -52,7 +52,7 @@ margin: 0 auto;
 }
 
 #main-layer-2{
-background-image:url('../Images/Parallax/Home_Parallax_Level2.png');
+background-image:url('pagersmartpixel.github.io/Images/Parallax/Home_Parallax_Level2.png');
 background-size:cover;
 background-position:center center;
 background-repeat:no-repeat;
@@ -70,7 +70,7 @@ margin: 0 auto;
 }
 
 #main-layer-1{
-background-image:url('../Images/Parallax/Home_Parallax_Level1.png');
+background-image:url('pagersmartpixel.github.io/Images/Parallax/Home_Parallax_Level1.png');
 background-size:cover;
 background-position:center center;
 background-repeat:no-repeat;
@@ -88,7 +88,7 @@ margin: 0 auto;
 }
 
 #main-layer-0{
-background-image:url('../Images/Parallax/Home_Parallax_Level0.png');
+background-image:url('pagersmartpixel.github.io/Images/Parallax/Home_Parallax_Level0.png');
 background-size:cover;
 background-position:center center;
 background-repeat:no-repeat;
@@ -106,7 +106,7 @@ margin: 0 auto;
 }
 
 #main-foreground{
-background-image:url('../Images/Splash_Floor.png');
+background-image:url('pagersmartpixel.github.io/Images/Splash_Floor.png');
 background-size:cover;
 background-position:center center;
 background-repeat:no-repeat;
@@ -126,7 +126,7 @@ margin: 0 auto;
 }
 
 #main-foreground-logo{
-background-image:url('../Images/Hexagon_centre.png');
+background-image:url('pagersmartpixel.github.io/Images/Hexagon_centre.png');
 background-size:contain;
 background-position:center center;
 background-repeat:no-repeat;
@@ -167,7 +167,7 @@ margin: 0 auto;
 
 
 #main-foreground-dots{
-background-image:url('../Images/Dots_Stars.png');
+background-image:url('pagersmartpixel.github.io/Images/Dots_Stars.png');
 background-size:contain;
 background-position:center center;
 background-repeat:no-repeat;
@@ -185,7 +185,7 @@ margin: 0 auto;
 }
 
 #main-foreground-logo-flare{
-background-image:url('../Images/Hexagon_FlareHighSky.png');
+background-image:url('pagersmartpixel.github.io/Images/Hexagon_FlareHighSky.png');
 background-size:contain;
 background-position:center center;
 background-repeat:no-repeat;
@@ -206,7 +206,7 @@ margin: 0 auto;
 
 
 #main-foreground-reflection{
-	background-image:url('../Images/Splash_Floor_Reflexion.png');
+	background-image:url('pagersmartpixel.github.io/Images/Splash_Floor_Reflexion.png');
 	background-size:contain;
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -229,7 +229,7 @@ margin: 0 auto;
 
 #main-wrapper{
 	/*display:none;
-	background-image:url('../Images/Splash_Background_Mobile.jpg');*/
+	background-image:url('pagersmartpixel.github.io/Images/Splash_Background_Mobile.jpg');*/
 
 }
 

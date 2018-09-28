@@ -14,8 +14,8 @@ body{
 
 @font-face {
   font-family: 'Borda_Bold';
-  src: url('../Fonts/Borda_Bold.ttf') format('truetype'); 
-  src:url('../Fonts/Borda_Bold.WOFF') format('woff');
+  src: url('https://github.com/tristansmartpixeltv/pagersmartpixel.github.io/blob/master/Fonts/Borda_Bold.ttf') format('truetype'); 
+  src:url('https://github.com/tristansmartpixeltv/pagersmartpixel.github.io/blob/master/Fonts/Borda_Bold.WOFF') format('woff');
 }  
 
 @font-face {
