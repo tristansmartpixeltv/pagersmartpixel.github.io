@@ -8,14 +8,14 @@ body{
 
 @font-face {
   font-family: 'Borda_Reg';
-  src: url('../Fonts/Borda_Reg.ttf') format('truetype'); 
-  src:url('../Fonts/Borda_Reg.WOFF') format('woff');
+  src: url('https://github.com/tristansmartpixeltv/pagersmartpixel.github.io/blob/master/Fonts/Borda_Reg.ttf?raw=true') format('truetype'); 
+  src:url('https://github.com/tristansmartpixeltv/pagersmartpixel.github.io/blob/master/Fonts/Borda_Reg.WOFF?raw=true') format('woff');
 }  
 
 @font-face {
   font-family: 'Borda_Bold';
-  src: url('https://github.com/tristansmartpixeltv/pagersmartpixel.github.io/blob/master/Fonts/Borda_Bold.ttf') format('truetype'); 
-  src:url('https://github.com/tristansmartpixeltv/pagersmartpixel.github.io/blob/master/Fonts/Borda_Bold.WOFF') format('woff');
+  src: url('https://github.com/tristansmartpixeltv/pagersmartpixel.github.io/blob/master/Fonts/Borda_Bold.ttf?raw=true') format('truetype'); 
+  src:url('https://github.com/tristansmartpixeltv/pagersmartpixel.github.io/blob/master/Fonts/Borda_Bold.WOFF??raw=true') format('woff');
 }  
 
 @font-face {
