@@ -9,7 +9,7 @@ body{
 @font-face {
   font-family: 'Borda_Reg';
   src: url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Reg.ttf') format('truetype'); 
-  src:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Reg.ttf') format('woff');
+  src:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Reg.WOFF') format('woff');
 }  
 
 @font-face {
@@ -18,13 +18,11 @@ body{
   src:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Bold.WOFF') format('woff');
 }  
 
-
 @font-face {
   font-family: 'Borda_Light';
   src: url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Light.ttf') format('truetype'); 
   src:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Light.WOFF') format('woff');
 }  
-
 
 @font-face {
   font-family: 'Planer_Reg';
@@ -351,7 +349,7 @@ header h1{
 
 
 #section-contact-bg{
-	background-image:url('../Images/Contact_BG.jpg');
+	background-image:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Images/Contact_BG.jpg');
 	background-size:110vw 110vw;
     background-position:center center;
     background-repeat:no-repeat;
@@ -925,7 +923,7 @@ section{
 }
 
 #section-contact-bg{
-	background-image:url(../Images/Contact_BG.jpg);
+	background-image:url(https://tristansmartpixeltv/pagersmartpixel.github.io/Images/Contact_BG.jpg);
 	background-size:200vw 200vh;
 	background-position:center center;
 	background-repeat:no-repeat;
