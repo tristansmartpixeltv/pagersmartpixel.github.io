@@ -26,7 +26,7 @@ body{
 
 
  #main-wrapper{
- 	background-image:url('../../Images/Splash_Background_Mobile.jpg');
+ 	background-image:url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/Splash_Background_Mobile.jpg');
  	background-size:cover;
  	background-position:center 0;
  	background-repeat:no-repeat;
@@ -156,7 +156,7 @@ body{
 	max-width:100vw; 
 	height:auto;
 	position:relative;
-	background-image:url('../../Images/Contact_BG.jpg');
+	background-image:url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/Contact_BG.jpg');
 	background-size:100% 100%;
 	background-position:center 0;
 	background-repeat:no-repeat;
@@ -167,7 +167,7 @@ body{
 }
 
 .section-contact{
-	background-image:url(../../Images/Contact_BG.jpg);
+	background-image:url(https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/Contact_BG.jpg);
 	background-size:100vw 100vw;
 	background-position:center center;
 	background-repeat:no-repeat;
