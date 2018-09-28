@@ -21,15 +21,15 @@ body{
 
 @font-face {
   font-family: 'Borda_Light';
-  src: url('../Fonts/Borda_Light.ttf') format('truetype'); 
-  src:url('../Fonts/Borda_Light.WOFF') format('woff');
+  src: url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Light.ttf') format('truetype'); 
+  src:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Borda_Light.WOFF') format('woff');
 }  
 
 
 @font-face {
   font-family: 'Planer_Reg';
-  src: url('../Fonts/Planer_Reg.ttf') format('truetype'); 
-  src:url('../Fonts/Planer_Reg.WOFF') format('woff');
+  src: url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Planer_Reg.ttf') format('truetype'); 
+  src:url('https://tristansmartpixeltv/pagersmartpixel.github.io/Fonts/Planer_Reg.WOFF') format('woff');
 }  
 
 
