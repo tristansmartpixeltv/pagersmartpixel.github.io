@@ -1,0 +1,233 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>SmartPixel.tv</title>
+  <meta name="description" content="Newest version of SmartPixel's Website">
+  <meta name="author" content="SmartPixel.tv">
+  <meta charset="utf-8" /> 
+
+
+  <link rel="canonical" href="https://smartpixel.tv/">
+  <link rel="shortlink" href="https://smartpixel.tv/">
+  <link rel="stylesheet" href="Styles/intro.css">
+  <link rel="stylesheet" href="Styles/Mobile/intro-mobile.css">
+  <link rel="stylesheet" href="Styles/parallax.css">
+  <link rel="stylesheet" href="Styles/Animations/dots-animation.css">
+  <link rel="stylesheet" href="Styles/Animations/flare-animation.css">
+  <link rel="stylesheet" href="Styles/Animations/screensaver-animation.css">
+  <link rel="icon" 
+      type="image/png" 
+      href="https://smartpixel.tv/wp-content/uploads/2015/09/smartpixel-touchscreen-multitouch-interactive-application-ecran-tactile-interactif.png">
+
+  <script src="Scripts/Plugins/jquery-3.3.1.min.js"></script>
+  <script src="Scripts/CMS/SmartCMS.js"></script>
+  <script src="Scripts/CMS/SmartCMSDataProvider.js"></script>
+  <script src="Scripts/CMS/SmartCMSDataSerializer.js"></script>
+  <script src="Scripts/Localization/LocalizationManager.js"></script>
+  <script src="Scripts/Localization/LocalizedText.js"></script>
+  <script src="Scripts/Localization/LocalizedHTMLElement.js"></script>
+  <script src="Scripts/main.js"></script>
+  <script src="Scripts/parallaxElement.js"></script>
+  <script src="Scripts/parallax.js"></script>
+  <script src="Scripts/screensaver.js"></script>
+  
+
+
+
+</head>
+
+<header>
+  <div  class="header-content">
+    <nav>
+      <a class="header-nav" onclick="GoToSectionAboutUs()" data-cms-localization="INTRO_ABOUTUS">ABOUT US</a>
+      <a class="header-nav" onclick="GoToSectionContact()" data-cms-localization="INTRO_CONTACTUS">CONTACT US</a>
+      <a class="header-nav" data-cms-localization="INTRO_LANGUAGE" onclick="ChangeApplicationLanguage()">FR</a>
+
+      <!--<a class="header-nav" href="#section-oldWebsite">OLD WEBSITE</a>-->
+    </nav>
+
+  </div>
+</header>
+
+ 
+
+<body>
+
+	 <img class="header-logo" src="Images/LogoSmartPixel_TopLeft.png" onclick="GoToSectionHome()" />
+
+<div id="section-screensaver">
+	<div class="typewriter" >
+  		<h1 id="main-title"class="parallax" data-cms-localization="INTRO_SPLASHSCREEN_SLOGAN">LET’S GET IN TOUCH !</h1 >
+	</div>
+</div>
+
+
+
+<div id ="main-wrapper">
+	<div id ="section-parallax">
+
+	
+	<div class="parallax" id="main-background" data-parallax-vertical-speed="0.1">
+	</div>
+
+
+	<div class="parallax" id="main-layer-3"   data-parallax-vertical-speed="0.4">
+	</div>
+
+	<div class="parallax dots-anim" id="main-foreground-dots"    data-parallax-vertical-speed="0.2">
+	</div>
+
+
+	<div class="parallax" id="main-layer-2"   data-parallax-vertical-speed="0.65">
+	</div>
+
+	<div class="parallax" id="main-layer-1"   data-parallax-vertical-speed="0.7">
+	</div>
+
+
+
+	<div class="parallax" id="main-layer-0"   data-parallax-vertical-speed="1.2">
+	</div>
+
+
+	<h1  id="main-foreground-logo-title" data-cms-localization="INTRO_DISCOVERUS" data-parallax-vertical-speed="1.6" >DISCOVER US !</h1 >
+
+	
+
+	<div class="parallax " id="main-foreground-logo"   data-parallax-vertical-speed="1">
+		
+	    <div class="parallax flare-anim " id="main-foreground-logo-flare"  data-parallax-vertical-speed="0.6">
+	    
+	    </div>
+	    
+	    </div>
+
+	  
+	</div>
+
+
+
+
+	</div>
+
+
+	<section id="section-about">
+
+	<div id="section-about-video-outer-container" data-parallax-vertical-speed="1.2" >
+    <video autoplay muted loop id="section-about-video">
+  		<source src="Videos/180710_SmartPixel_ANIMATION_LOGO_7sec.mp4" type="Video/mp4">
+	</video>
+	<div class="section-about-video-content">
+	  	<h1 id ="section-about-video-title" class="title-bold" data-cms-localization="INTRO_ABOUTUS">
+	  		ABOUT US 
+	  	</h1> 
+
+	  	
+	  	<p id="section-about-video-content-p1" data-cms-localization="INTRO_ABOUTUS_VIDEODESCRIPTION">ELEVATE YOUR WORK FLOW AND YOUR CREATIVE PROCESS TO A WHOLE NEW LEVEL AND TURN IT INTO A COMFORTABLE AND FUN EXPERIENCE. THIS NEW MULTI-FUNCTIONAL PEN COMBINES BOLD DESIGN, PRACTICAL FEATURES AND A FUN TWIST WHICH MAKES IT THE NEW GO-TO GADGET FOR THOSE WITH HIGH STANDARDS.
+		</p>
+
+		<a id="section-about-video-hyperlink" href="https://vimeo.com/smartpixeltv" target="_blank" data-cms-localization="INTRO_ABOUTUS_VIEWALLVIDEOS">&nbsp; // VIEW ALL VIDEOS</a> 
+
+	</div>
+	</div>
+
+
+	
+
+	</section>
+		
+	
+		<h1 class="section-contact-maintitle title-bold" data-cms-localization="INTRO_CONTACTUS">CONTACT US </h1> 
+		
+		
+
+		<div id="content-table">
+
+
+
+
+		<div id="section-contact"  >
+	    
+		
+	    <div id ="section-contact-bg">
+	    </div>
+
+
+	
+	    <div class="section-contact-table">
+	    	   <div class="section-contact-row">
+	    	   
+		    	   <div class="section-contact-adress-container">
+		    	   	<span class="section-contact-adress-title" data-cms-localization="INTRO_CONTACT_MONTREAL_TITLE">MONTREAL</span> 
+		    	   	<span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_MONTREAL_ADRESS">Sainte-Catherine Ouest</span>
+		    	    <span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_MONTREAL_CITY">Montreal,QC</span>
+		    	   	<span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_MONTREAL_ZIPCODE">H31 A16 Office 411</span>
+		    	   </div> 
+
+		    	    <div class="section-contact-adress-container">
+			    	   	<span class="section-contact-adress-title" data-cms-localization="INTRO_CONTACT_TORONTO_TITLE">TORONTO</span> 
+			    	   	<span class="section-contact-adress-subtitle"data-cms-localization="INTRO_CONTACT_TORONTO_ADRESS" >Sainte-Catherine Ouest</span>
+			    	    <span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_TORONTO_CITY">Montreal,QC</span>
+			    	   	<span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_TORONTO_ZIPCODE">H31 A16 Office 411</span>
+			    	  </div> 
+		    	   
+		    	   <div class="section-contact-adress-container">
+		    	    <span class="section-contact-adress-title" data-cms-localization="INTRO_CONTACT_PARIS_TITLE">PARIS</span>
+		    	    <span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_PARIS_ADRESS">Sainte-Catherine Ouest</span>
+		    	    <span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_PARIS_CITY">Montreal,QC</span>
+		    	   	<span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_PARIS_ZIPCODE">H31 A16 Office 411</span>
+		    	   </div> 
+		    	   
+
+		    	   <div class="section-contact-adress-container">
+		    	   	<span class="section-contact-adress-title" data-cms-localization="INTRO_CONTACT_COLOMBIA_TITLE">COLOMBIA</span>
+		    	   	 <span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_COLOMBIA_ADRESS">Oficina 22 Edificio Emprendu</span>
+		    	    <span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_COLOMBIA_CITY">Bogotá,Colombia</span>
+		    	   	<span class="section-contact-adress-subtitle" data-cms-localization="INTRO_CONTACT_COLOMBIA_ZIPCODE">Cra 13 # 83 - 19</span>
+		    	   </div> 
+
+
+	    	   
+	    	   </div> 
+			 
+			    		
+	    </div> 
+
+	    
+
+	  
+		<div class="section-gotowebsite">
+
+						<a class="section-gotowebsite-header" data-cms-localization="INTRO_CURRENTLY_IN_DEVELOPEMENT">This site is currently in development, to know more info..</a>
+		    	   			<div class="section-gotowebsite-container">
+		    					<a class="section-gotowebsite-title" href="https://smartpixel.tv/" target="_blank" data-cms-localization="INTRO_VISITOLDWEBSITE">VISIT OLD WEBSITE</a>
+							</div>
+					
+		</div>
+
+	 	<div class="section-socialmedia">
+			<span class="section-socialmedia-title" data-cms-localization="INTRO_CONNECTWITHUS">CONNECT WITH US</span>
+			<div class="section-socialmedia-container">
+				<a class="section-socialmedia-name" href="https://www.youtube.com/channel/UCmTjjw0M3YBmFZkqwh6FqyQ" target="_blank"><img src="Images/SocialMedia/Social_Icons_Youtube.png"/></a> 
+				<a class="section-socialmedia-name" href="mailto:info@smartpixel.tv" target="_blank"><img src="Images/SocialMedia/Social_Icons_Mail.png"/></a> 
+				<a class="section-socialmedia-name" href="https://vimeo.com/smartpixeltv" target="_blank" ><img src="Images/SocialMedia/Social_Icons_Vimeo.png"/></a> 
+				<a class="section-socialmedia-name" href="https://fr.linkedin.com/company/smartpixel.tv" target="_blank"><img src="Images/SocialMedia/Social_Icons_LinkedIN.png"/></a>
+				<a class="section-socialmedia-name" href="https://fr-ca.facebook.com/pages/category/Web-Designer/SmartPixeltv-331603056888438/" target="_blank"><img src="Images/SocialMedia/Social_Icons_Facebook.png"/></a>  
+			</div>
+		</div>
+
+			<div class="section-copyright" >
+				<span class="section-copyright-title" data-cms-localization="INTRO_COPYRIGHT">Tous droits réservés 2009-2018 SmartPixel.tv</span>
+		   </div>
+		
+
+		
+
+</div>
+
+</body>
+
+</html>

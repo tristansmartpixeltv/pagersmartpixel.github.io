@@ -1,0 +1,244 @@
+
+.parallax{
+
+}
+
+
+
+
+#section-parallax{
+	width:100vw !important;
+
+}
+
+
+
+#main-background{
+background-image:url('../Images/Parallax/Splash_Background.jpg');
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;
+width:100vw;
+height:100vh;
+top:-30vh;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+padding:0;
+position:absolute;
+z-index:1;
+margin: 0 auto;
+}
+
+
+
+#main-layer-3{
+background-image:url('../Images/Parallax/Home_Parallax_Level3.png');
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;
+width:100vw;
+height:100vh;
+top:-30vh;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+padding:0;
+position:absolute;
+z-index:3;
+margin: 0 auto;
+}
+
+#main-layer-2{
+background-image:url('../Images/Parallax/Home_Parallax_Level2.png');
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;
+width:100vw;
+height:100vh;
+top:-30vh;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+padding:0;
+position:absolute;
+z-index:4;
+margin: 0 auto;
+}
+
+#main-layer-1{
+background-image:url('../Images/Parallax/Home_Parallax_Level1.png');
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;
+width:100vw;
+height:100vh;
+top:-30vh;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+padding:0;
+position:absolute;
+z-index:5;
+margin: 0 auto;
+}
+
+#main-layer-0{
+background-image:url('../Images/Parallax/Home_Parallax_Level0.png');
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;
+width:100vw;
+height:100vh;
+top:15vh;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+padding:0;
+position:absolute;
+z-index:6;
+margin: 0 auto;
+}
+
+#main-foreground{
+background-image:url('../Images/Splash_Floor.png');
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;
+width:100vw;
+height:100vh;
+top:55vh;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+padding:0;
+position:absolute;
+z-index:7;
+opacity:1;
+margin: 0 auto;
+
+}
+
+#main-foreground-logo{
+background-image:url('../Images/Hexagon_centre.png');
+background-size:contain;
+background-position:center center;
+background-repeat:no-repeat;
+width:50vw;
+height:50vh;
+top:5vh;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+padding:0;
+position:absolute;
+z-index:3;
+margin: 0 auto;
+}
+
+
+#main-foreground-logo-title{
+	width:100vw;
+	margin:0 auto;
+	text-align:center;
+	height:auto;
+  font-size:24px;
+  color: #fff;
+  font-family: 'Borda_Light';
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 10px; /* Adjust as needed */
+	display:block;
+	position:absolute;
+	z-index:8;
+	top:80vh;
+
+
+
+}
+
+
+
+
+#main-foreground-dots{
+background-image:url('../Images/Dots_Stars.png');
+background-size:contain;
+background-position:center center;
+background-repeat:no-repeat;
+width:100vw;
+height:100vh;
+top:-23vh;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+padding:0;
+position:relative;
+z-index:1;
+margin: 0 auto;
+}
+
+#main-foreground-logo-flare{
+background-image:url('../Images/Hexagon_FlareHighSky.png');
+background-size:contain;
+background-position:center center;
+background-repeat:no-repeat;
+width:100%;
+height:100%;
+top:-60%;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+padding:0;
+position:relative;
+z-index:7;
+margin: 0 auto;
+}
+
+
+
+
+#main-foreground-reflection{
+	background-image:url('../Images/Splash_Floor_Reflexion.png');
+	background-size:contain;
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:100vw;
+	height:40vh;
+	left:-2vw;
+	right:0;
+	bottom:0;
+	top:-20vh;
+	margin:0;
+	padding:0;
+	position:relative;
+	z-index:8;
+	margin: 0 auto;
+}
+
+
+
+@media screen and  (max-width: 768px) {
+
+#main-wrapper{
+	/*display:none;
+	background-image:url('../Images/Splash_Background_Mobile.jpg');*/
+
+}
+
+
+
+
+
+}
+
+
+
+
