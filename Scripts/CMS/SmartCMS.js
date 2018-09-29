@@ -69,6 +69,7 @@ smartCms.prototype.CacheLocalDatatable = function(tableName,jsonFileName, onComp
     }); */ 
 
     var json = JSON.parse(data);
+    console.log(json);
      SmartCMSDataSerializer.Deserialize(json,function(table){     
                           self.SetDataTableInCache(table);
                               console.log(table);
