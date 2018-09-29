@@ -53,6 +53,13 @@ smartCms.prototype.CacheLocalDatatable = function(tableName,jsonFileName, onComp
   
     var self = this;
 
+     SmartCMSDataSerializer.Deserialize(data,function(table){     
+                          self.SetDataTableInCache(table);
+                              console.log(table);
+                      onComplete(table,data.Name);
+            
+                });
+
     /*$.ajax({
         type: "GET",
         url: this.path + tableName +".json",
@@ -67,12 +74,7 @@ smartCms.prototype.CacheLocalDatatable = function(tableName,jsonFileName, onComp
             
         }
     });  */
-     SmartCMSDataSerializer.Deserialize(data,function(table){     
-                          self.SetDataTableInCache(table);
-                              console.log(table);
-                      onComplete(table,data.Name);
-            
-                });
+    
 
     /*$.getJSON(, function(json) {
    
