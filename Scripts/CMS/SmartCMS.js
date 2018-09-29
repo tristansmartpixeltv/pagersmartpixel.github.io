@@ -53,7 +53,7 @@ smartCms.prototype.CacheLocalDatatable = function(tableName,jsonFileName, onComp
   
     var self = this;
 
-    $.ajax({
+   /* $.ajax({
         type: "GET",
         url: this.path + tableName +".json",
         contentType: "application/json; charset=utf-8",
@@ -66,8 +66,10 @@ smartCms.prototype.CacheLocalDatatable = function(tableName,jsonFileName, onComp
         error: function(jqXHR, textStatus, errorThrown) {
             
         }
-    });  
-     SmartCMSDataSerializer.Deserialize(data,function(table){     
+    }); */ 
+
+    var json = JSON.parse(data);
+     SmartCMSDataSerializer.Deserialize(json,function(table){     
                           self.SetDataTableInCache(table);
                               console.log(table);
                       onComplete(table,data.Name);
