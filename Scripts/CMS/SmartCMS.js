@@ -97,7 +97,7 @@ smartCms.prototype.CacheLocalDatatable = function(tableName,jsonFileName, onComp
     */
 
 
-        SmartCMSDataSerializer.Deserialize(jQuery.parseJSON(data),function(table){     
+        SmartCMSDataSerializer.Deserialize(JSON.parse(data),function(table){     
                           self.SetDataTableInCache(table);
                               console.log(table);
                       onComplete(table,data.Name);
