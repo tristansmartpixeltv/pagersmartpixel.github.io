@@ -315,7 +315,7 @@ header h1{
 	position:relative;  
 	border-spacing:0 100px;
 	table-layout: fixed; 
-	width: 100vw;
+	width: 90vw;
 }
 
 .section-contact-row{
@@ -330,14 +330,14 @@ header h1{
 	position:relative;
 	font-family:'Borda_Light';
 	letter-spacing:3px;
-	font-size:16px; 
+	font-size:14px; 
 	display:block;
 }
 
 .section-contact-adress-title{
 	font-family:'Borda_Bold';
 	letter-spacing:3px;
-	font-size:21px;
+	font-size:18px;
 }
 
 .section-contact-adress-container{
@@ -780,7 +780,7 @@ section{
 	position:relative;  
 	border-spacing:0 0px;
 	table-layout: fixed; 
-	width: 100vw;
+	width: 90vw;
 }
 
 .section-contact-row{
@@ -795,7 +795,7 @@ section{
 	position:relative;
 	font-family:'Borda_Light';
 	letter-spacing:3px;
-	font-size:16px; 
+	font-size:14px; 
 	display:block;
 }
 
@@ -803,7 +803,7 @@ section{
 .section-contact-adress-title{
 	font-family:'Borda_Bold';
 	letter-spacing:3px;
-	font-size:21px;
+	font-size:18px;
 	min-width:70vw;
 }
 
