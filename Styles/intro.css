@@ -315,6 +315,7 @@ header h1{
 	position:relative;  
 	border-spacing:0 100px;
 	table-layout: fixed; 
+	margin:0 auto;
 	width: 90vw;
 }
 
@@ -780,6 +781,7 @@ section{
 	position:relative;  
 	border-spacing:0 0px;
 	table-layout: fixed; 
+	margin:0 auto;
 	width: 90vw;
 }
 
