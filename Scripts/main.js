@@ -22,7 +22,14 @@ window.onload = function(){
 	MainParallaxScene = new ParallaxScene();
 	
 	var MainVideoHtmlElement = document.getElementById('section-about-video');
+	var MainVideoSourceHtmlElement = MainVideoHtmlElement.getElementsByTagName('source')[0];
+	
+	console.log(MainVideoHtmlElement);
+	console.log(MainVideoSourceHtmlElement);
 
+	
+	
+	
 	if(isUsingInternetExplorer())
 	{
 			var websiteContactContainer = document.getElementById("content-table");
