@@ -128,6 +128,7 @@ function setVideo(){
 	
 	if(window.screen.width <= 1024){
 		MainVideoSourceHtmlElement.setAttribute('src','https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Videos/Showreel-SMPX-480p-Mobile.mp4');
+		MainVideoSourceHtmlElement.setAttribute('controls','controls');
 	}
     else
 	{
