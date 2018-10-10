@@ -528,6 +528,11 @@ section{
 /*MEDIA QUERIES */
 @media screen and (min-width: 1281px) and (max-width: 1919px) {
 
+	.section-email-title{
+	top:-10px;
+}
+
+
 
 .section-about-video-content h1{
 	font-size:18px;
@@ -604,6 +609,10 @@ section{
 
 
 @media screen and (min-width: 768px) and (max-width: 1280px)  {
+
+.section-email-title{
+	top:-10px;
+}
 
 
 .section-about-video-content h1{
@@ -685,6 +694,11 @@ section{
 
 
 @media screen and  (max-width: 767px) {
+
+	.section-email-title{
+	top:-10px;
+}
+
 
 .section-about-video-content {
 	position: absolute;
