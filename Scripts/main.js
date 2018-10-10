@@ -20,6 +20,8 @@ window.onload = function(){
 	GoToSectionHome();
 
 	MainParallaxScene = new ParallaxScene();
+	
+	var MainVideoHtmlElement = document.getElementById('section-about-video');
 
 	if(isUsingInternetExplorer())
 	{

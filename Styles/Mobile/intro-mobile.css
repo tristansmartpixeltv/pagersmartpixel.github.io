@@ -413,6 +413,12 @@ body{
 	word-wrap: break-word;
 }
 
+.section-email-title{
+	font-size:3em;
+	word-wrap: break-word;
+	top:3em;
+}
+
 
 
 
