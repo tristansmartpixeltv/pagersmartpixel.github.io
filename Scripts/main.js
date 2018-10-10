@@ -21,11 +21,7 @@ window.onload = function(){
 
 	MainParallaxScene = new ParallaxScene();
 	
-	var MainVideoHtmlElement = document.getElementById('section-about-video');
-	var MainVideoSourceHtmlElement = MainVideoHtmlElement.getElementsByTagName('source')[0];
-	
-	console.log(MainVideoHtmlElement);
-	console.log(MainVideoSourceHtmlElement);
+	setVideo();
 
 	
 	
@@ -122,6 +118,21 @@ function ChangeApplicationLanguage(){
 	}
 
 	
+	
+}
+
+
+function setVideo(){
+	var MainVideoHtmlElement = document.getElementById('section-about-video');
+	var MainVideoSourceHtmlElement = MainVideoHtmlElement.getElementsByTagName('source')[0];
+	
+	if(window.screen.width <= 1024){
+		MainVideoSourceHtmlElement.setAttribute('src','https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Videos/Showreel-SMPX-480p-Mobile.mp4');
+	}
+    else
+	{
+		MainVideoSourceHtmlElement.setAttribute('src','https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Videos/Showreel-SMPX-480p.mp4');
+	}
 	
 }
 
