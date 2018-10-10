@@ -516,6 +516,7 @@ header h1{
 
 .section-email-title{
 	top:-10px;
+	color:white;
 }
 
 
@@ -695,7 +696,7 @@ section{
 
 @media screen and  (max-width: 767px) {
 
-	.section-email-title{
+.section-email-title{
 	top:-10px;
 }
 
