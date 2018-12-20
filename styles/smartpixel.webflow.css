@@ -1,0 +1,1353 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Exo, sans-serif;
+  color: #dbdbdb;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+p {
+  display: block;
+  margin-bottom: 10px;
+  font-family: Exo, sans-serif;
+  color: #e4e4e4;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+a {
+  font-family: Exo, sans-serif;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.body {
+  background-color: #09090c;
+}
+
+.hero_parallax {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 1200px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/Hero_Element_BgGlow.png');
+  background-position: 50% 0px;
+  background-size: 1477px;
+  background-repeat: no-repeat;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+}
+
+.hero_elements_bg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  min-width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.hero_lvl4 {
+  position: absolute;
+  max-width: 1600px;
+  -webkit-transform: translate3d(0px, 0px, -400px);
+  transform: translate3d(0px, 0px, -400px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.hero_lvl3 {
+  position: absolute;
+  width: 1100px;
+  max-width: none;
+  -webkit-transform: translate3d(0px, 0px, -300px) translate(0px, 0px);
+  transform: translate3d(0px, 0px, -300px) translate(0px, 0px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.hero_lvl2 {
+  position: absolute;
+  max-width: 600px;
+  background-color: transparent;
+  opacity: 0.13;
+  -webkit-transform: translate3d(0px, 0px, -250px) translate(0px, 0px);
+  transform: translate3d(0px, 0px, -250px) translate(0px, 0px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.hero_lvl1 {
+  position: absolute;
+  max-width: 800px;
+  -webkit-transform: translate3d(0px, 0px, -100px) translate(0px, 0px);
+  transform: translate3d(0px, 0px, -100px) translate(0px, 0px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.hero_lvl0 {
+  position: absolute;
+  width: 400px;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.hero_lvl5 {
+  position: absolute;
+  height: 533px;
+  max-width: none;
+  -webkit-transform: translate3d(0px, 0px, -500px);
+  transform: translate3d(0px, 0px, -500px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.hero_lvl6 {
+  position: absolute;
+  max-width: 1500px;
+  -webkit-transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+  transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.hero_lvl1-1 {
+  position: absolute;
+  max-width: 800px;
+  -webkit-transform: translate3d(0px, 0px, -79px);
+  transform: translate3d(0px, 0px, -79px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.heading {
+  background-color: transparent;
+  font-family: Exo, sans-serif;
+  color: #dbdbdb;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.about-video2 {
+  position: relative;
+  display: block;
+  overflow: visible;
+  width: 1280px;
+  height: 720px;
+  margin-left: 10vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.about-us {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 2200px;
+  margin-right: 12px;
+  padding-top: 500px;
+  clear: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/BG_particle.png');
+  background-position: 50% 0px;
+  background-size: 1888px;
+  background-repeat: repeat;
+}
+
+.about-txt2 {
+  position: relative;
+  z-index: 2;
+  display: block;
+  max-width: 400px;
+  margin-top: -356px;
+  margin-right: 25%;
+  float: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.paragraph {
+  position: relative;
+  z-index: 2;
+}
+
+.background-video {
+  position: relative;
+  overflow: visible;
+}
+
+.about-filler1 {
+  position: relative;
+  z-index: 1;
+  width: 400px;
+  margin-top: -338px;
+  margin-right: 5vh;
+  float: right;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.realestate-section {
+  display: block;
+  overflow: visible;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.div-block {
+  position: relative;
+  display: block;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  clear: none;
+}
+
+.div-block.motionupdown {
+  height: 720px;
+  margin-top: 266px;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.div-block.realestatebg2 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_2-1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block.realestatebg3 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block.realestatebg4 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block.realestatebg6 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_6.jpg');
+  background-size: 1400px;
+  background-repeat: no-repeat;
+}
+
+.div-block.realestatebg5 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_5.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block.realestatebg7 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_7.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block.realestatebg8 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_8.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block.realestatebg6 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_6.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block.realestatebg9 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_9.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block.realestatebg10 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_10.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block.realestatebg11 {
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_12.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider {
+  height: 100vh;
+}
+
+.slide {
+  position: static;
+  overflow: hidden;
+  background-color: #09090c;
+  background-image: none;
+  background-size: auto;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+}
+
+.slide.bgstars {
+  overflow: visible;
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/BG_particle.png');
+  background-position: 50% 50%;
+  background-size: 1888px;
+  background-repeat: no-repeat;
+}
+
+.slide-txt {
+  position: relative;
+  top: -741px;
+  right: 12vh;
+  z-index: 1;
+  display: block;
+  width: 25vw;
+  margin-top: -111px;
+  float: right;
+  clear: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: translate3d(0px, 0px, 32px);
+  transform: translate3d(0px, 0px, 32px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.image {
+  display: block;
+}
+
+.about-filler3 {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin-top: -338px;
+  margin-left: 47px;
+  float: left;
+  opacity: 1;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.container {
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+}
+
+.contact {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/Contact_BG.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid {
+  position: relative;
+  top: 35vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: minmax(200px, 300px) minmax(200px, 300px) minmax(200px, 300px) minmax(200px, 300px) minmax(200px, 300px);
+  grid-template-columns: minmax(200px, 300px) minmax(200px, 300px) minmax(200px, 300px) minmax(200px, 300px) minmax(200px, 300px);
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.address-section {
+  height: 1200px;
+  background-color: transparent;
+}
+
+.address-tile {
+  background-color: transparent;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.address-tile.center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.address-content {
+  font-size: 10px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.about-filler4 {
+  position: absolute;
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 300px;
+  margin-top: 171px;
+  margin-left: 181px;
+  float: left;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0.24;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.about-filler5 {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 313px;
+  float: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.about-filler6 {
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -315px;
+  float: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.image-2 {
+  position: absolute;
+  margin-top: -184px;
+}
+
+.image-3 {
+  position: absolute;
+  margin-top: 182px;
+}
+
+.image-4 {
+  position: relative;
+  z-index: 1;
+}
+
+.heading1 {
+  position: static;
+  margin-top: 140px;
+  padding-bottom: 0px;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 30px;
+}
+
+.heading1.absolute {
+  position: absolute;
+}
+
+.div-block-2 {
+  position: absolute;
+  z-index: 1;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  margin-top: -111px;
+  background-color: #000;
+  opacity: 0.46;
+}
+
+.slide-nav {
+  position: relative;
+  margin-top: -120px;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.paragraph-2 {
+  font-size: 11px;
+  line-height: 25px;
+}
+
+.container-2 {
+  position: relative;
+  top: 275px;
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.reseausociaux {
+  position: static;
+  display: block;
+  margin-top: 470px;
+  clear: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  text-align: center;
+}
+
+.buttonsociaux {
+  margin-right: 12px;
+  margin-left: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, .15);
+  background-color: transparent;
+  font-size: 10px;
+  letter-spacing: 5px;
+}
+
+.buttonsociaux:hover {
+  color: #4891fd;
+}
+
+.div-block-3 {
+  padding-top: 0px;
+}
+
+.heading-2 {
+  margin-top: 57px;
+}
+
+.footer-email {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.button {
+  margin-top: 12px;
+  margin-right: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, .15);
+  background-color: transparent;
+  font-size: 10px;
+  letter-spacing: 5px;
+}
+
+.button:hover {
+  color: #4891fd;
+}
+
+.slide-txt-cover {
+  position: relative;
+  left: 175px;
+  top: -766px;
+  bottom: -766px;
+  z-index: 1;
+  display: block;
+  overflow: visible;
+  width: 25vw;
+  margin-top: 152px;
+  float: right;
+  clear: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: translate3d(0px, 0px, 100px);
+  transform: translate3d(0px, 0px, 100px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.realestate-section-mobile {
+  display: block;
+  overflow: visible;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+@media (max-width: 991px) {
+  .hero_parallax {
+    display: none;
+  }
+  .about-video2 {
+    display: block;
+    width: 100%;
+    margin-left: 0%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .about-us {
+    height: 1200px;
+  }
+  .about-txt2 {
+    position: static;
+    display: block;
+    width: 100%;
+    margin-top: -111px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .about-filler1 {
+    display: none;
+  }
+  .div-block {
+    width: 100%;
+  }
+  .div-block.motionupdown {
+    position: static;
+    display: block;
+    margin-top: 100px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .div-block.realestatebg2 {
+    height: 500px;
+    background-position: 0px 50%;
+    background-size: cover;
+  }
+  .div-block.realestatebg3 {
+    height: 500px;
+    background-position: 0px 50%;
+  }
+  .div-block.realestatebg4 {
+    height: 500px;
+    background-position: 0px 50%;
+  }
+  .div-block.realestatebg6 {
+    height: 500px;
+    background-position: 0px 50%;
+  }
+  .div-block.realestatebg5 {
+    height: 500px;
+    background-position: 0px 50%;
+  }
+  .div-block.realestatebg7 {
+    height: 500px;
+    background-position: 0px 50%;
+  }
+  .div-block.realestatebg8 {
+    height: 500px;
+    background-position: 0px 50%;
+  }
+  .div-block.realestatebg9 {
+    height: 500px;
+    background-position: 0px 50%;
+  }
+  .div-block.realestatebg10 {
+    height: 500px;
+    background-position: 0px 50%;
+  }
+  .div-block.realestatebg11 {
+    height: 500px;
+    background-position: 0px 50%;
+  }
+  .slider {
+    width: 100%;
+  }
+  .slide-txt {
+    position: static;
+    left: 10%;
+    top: 50%;
+    right: auto;
+    width: 100%;
+    margin-top: 30px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .image {
+    width: 100%;
+  }
+  .about-filler3 {
+    display: none;
+  }
+  .contact {
+    background-position: -405px 50%;
+    background-size: cover;
+  }
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+  .about-filler4 {
+    display: none;
+  }
+  .about-filler5 {
+    display: block;
+  }
+  .about-filler6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .image-2 {
+    position: relative;
+    display: inline-block;
+  }
+  .image-3 {
+    left: 0px;
+    top: -332px;
+    bottom: 0px;
+    display: block;
+  }
+  .div-block-2 {
+    height: 700px;
+  }
+  .footer-email {
+    padding-bottom: 100px;
+  }
+  .slide-txt-cover {
+    position: static;
+    left: 10%;
+    top: 50%;
+    right: auto;
+    width: 100%;
+    margin-top: 30px;
+    padding-right: 5%;
+    padding-left: 5%;
+    float: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us {
+    display: none;
+    overflow: visible;
+    height: 500px;
+  }
+  .about-txt2 {
+    position: relative;
+    display: block;
+    margin-top: -598px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .div-block {
+    display: inline;
+  }
+  .div-block.realestatebg2 {
+    position: relative;
+    display: block;
+    height: 500px;
+    float: left;
+    background-color: transparent;
+    background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_2-1.jpg');
+    background-position: 12% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .div-block.realestatebg3 {
+    display: block;
+    height: 300px;
+    background-position: 0px 50%;
+  }
+  .div-block.realestatebg4 {
+    display: block;
+    background-position: 23% 50%;
+  }
+  .div-block.realestatebg6 {
+    display: block;
+    background-position: 30% 50%;
+  }
+  .div-block.realestatebg5 {
+    display: block;
+    background-position: 50% 50%;
+  }
+  .div-block.realestatebg7 {
+    display: block;
+    background-position: 50% 50%;
+  }
+  .div-block.realestatebg8 {
+    display: block;
+    background-position: 26% 50%;
+  }
+  .div-block.realestatebg9 {
+    display: block;
+    background-position: 50% 50%;
+  }
+  .div-block.realestatebg10 {
+    display: block;
+    background-position: 50% 50%;
+  }
+  .div-block.realestatebg11 {
+    display: block;
+    background-position: 30% 50%;
+  }
+  .slide-txt {
+    left: 1vh;
+    top: 35%;
+    right: auto;
+    bottom: 35%;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .image {
+    padding-bottom: 45px;
+  }
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+  .address-section {
+    position: relative;
+    display: block;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .about-filler6 {
+    -webkit-transform: scale(0.72);
+    -ms-transform: scale(0.72);
+    transform: scale(0.72);
+  }
+  .image-3 {
+    display: none;
+  }
+  .image-4 {
+    position: absolute;
+  }
+  .heading1 {
+    font-size: 15px;
+  }
+  .slide-txt-cover {
+    left: 1vh;
+    top: 35%;
+    right: auto;
+    bottom: 35%;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .mobileslide {
+    display: inline-block;
+  }
+  .hero-mobile {
+    height: 500px;
+  }
+}
+
+@media (max-width: 479px) {
+  .about-us {
+    position: static;
+    display: none;
+    padding-top: 0px;
+  }
+  .about-txt2 {
+    position: static;
+    display: block;
+    margin-top: -631px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+  .div-block {
+    position: relative;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .div-block.motionupdown {
+    display: block;
+    min-height: 500px;
+  }
+  .div-block.realestatebg2 {
+    position: relative;
+    display: block;
+    float: none;
+    clear: none;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background-image: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/RealEstate_2-1.jpg');
+    background-position: 26% 50%;
+    background-size: cover;
+  }
+  .div-block.realestatebg3 {
+    background-position: 0px 50%;
+    background-size: cover;
+  }
+  .div-block.realestatebg9 {
+    display: inline-block;
+  }
+  .slide-txt {
+    display: inline-block;
+    margin-top: 50px;
+  }
+  .contact {
+    background-position: -452px 0px;
+  }
+  .buttonsociaux {
+    margin-top: 12px;
+  }
+  .padding100px {
+    margin-top: 100px;
+  }
+  .paragraph-3 {
+    line-height: 20px;
+  }
+  .mobileslide {
+    position: static;
+    display: inline-block;
+  }
+}
+
+#w-node-4cb3fd6ea5ea-300f47ab {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-83b4884e6960-300f47ab {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+@media screen and (max-width: 991px) {
+  #w-node-83b4884e6960-300f47ab {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-83b4884e6960-300f47ab {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+  }
+}
+
+#w-node-c88e1c56dbdb-300f47ab {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+@media screen and (max-width: 991px) {
+  #w-node-c88e1c56dbdb-300f47ab {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 3;
+    grid-row-start: 3;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 4;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-c88e1c56dbdb-300f47ab {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 3;
+    grid-row-start: 3;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 4;
+  }
+}
+
+#w-node-5311495fbb39-300f47ab {
+  -ms-grid-column: 4;
+  grid-column-start: 4;
+  -ms-grid-column-span: 1;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+@media screen and (max-width: 991px) {
+  #w-node-5311495fbb39-300f47ab {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 4;
+    grid-row-start: 4;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 5;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-5311495fbb39-300f47ab {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 4;
+    grid-row-start: 4;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 5;
+  }
+}
+
+#w-node-fbae9b19d0c6-300f47ab {
+  -ms-grid-column: 5;
+  grid-column-start: 5;
+  -ms-grid-column-span: 1;
+  grid-column-end: 6;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+@media screen and (max-width: 991px) {
+  #w-node-fbae9b19d0c6-300f47ab {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 5;
+    grid-row-start: 5;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 6;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-fbae9b19d0c6-300f47ab {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 5;
+    grid-row-start: 5;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 6;
+  }
+}
+
+#w-node-31cafb9d12c6-300f47ab {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-86f0e104fdcb-300f47ab {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
