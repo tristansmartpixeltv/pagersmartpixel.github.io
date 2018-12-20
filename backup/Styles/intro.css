@@ -1,0 +1,1014 @@
+body{
+
+  overflow-x:hidden;
+  background:#000002;
+  margin:0;
+
+}
+
+@font-face {
+  font-family: 'Borda_Reg';
+  src: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Fonts/Borda_Reg.ttf') format('truetype'); 
+  src:url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Fonts/Borda_Reg.WOFF') format('woff');
+}  
+
+@font-face {
+  font-family: 'Borda_Bold';
+  src: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Fonts/Borda_Bold.ttf') format('truetype'); 
+  src:url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Fonts/Borda_Bold.WOFF') format('woff');
+}  
+
+@font-face {
+  font-family: 'Borda_Light';
+  src: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Fonts/Borda_Light.ttf') format('truetype'); 
+  src:url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Fonts/Borda_Light.WOFF') format('woff');
+}  
+
+@font-face {
+  font-family: 'Planer_Reg';
+  src: url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Fonts/Planer_Reg.ttf') format('truetype'); 
+  src:url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Fonts/Planer_Reg.WOFF') format('woff');
+}  
+
+
+a{
+	text-decoration: none;
+}
+
+a:-webkit-any-link{
+	cursor:pointer;
+}
+
+
+
+
+
+#main-wrapper{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+ 
+
+}
+
+
+
+
+header{
+	position:fixed;
+	z-index:10;
+
+	top:50px;
+	right:50px;
+
+}
+
+.header-nav{
+	font-family:'Borda_Light';
+	color:white;
+	font-size:1em;
+	display:inline-block;
+	margin-left:16px;
+	text-decoration: none;
+	z-index:10;
+
+
+    -webkit-transition: color 0.5s ease-out;
+    -moz-transition: color 0.5s ease-out;
+    -o-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+.header-nav:hover{
+	color:#2691ff;
+	cursor:pointer;
+}
+
+
+header h1{
+	color:white;
+}
+
+#header-content{
+
+}
+
+.header-logo{
+	left:50px;
+	top:50px;
+	max-width:120px;
+	max-height:24px;
+	position:fixed;
+	opacity:1;
+	z-index:8;
+}
+
+.header-logo:hover{
+	opacity:0.5;
+	 -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+    cursor:pointer;
+}
+
+
+
+
+
+#section-about{
+	width:101vw;
+	height:auto;
+	position:absolute;
+	top:85vh;
+	left:0;
+	right:0;
+	margin:0;
+	padding:0;
+	z-index:3;
+
+}
+
+#section-about-video-outer-container{
+	top:30vh;	
+	width:100vw;
+	height:auto;
+	position:relative;
+	/*overflow:hidden;*/
+	z-index:3;
+
+}
+
+
+.title-bold{
+	font-family: "Borda_Bold" !important;
+	color:white !important;
+	font-size:1.5em !important;
+}
+
+.section-contact-maintitle{
+	position:relative;
+	top:167vh;
+	text-align:center;
+	z-index:8;
+
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#section-about-video {
+    position: relative;
+    z-index:3;
+    right: 0;
+    bottom: 0;
+    top:0;
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+
+}
+
+
+.section-about-video-content{
+	position: absolute;
+    bottom: 0;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    height:inherit;
+    width:inherit;
+    z-index:3;
+    transform:translate(0,0);
+}
+
+.section-about-video-content h1{
+	font-size:26px;
+	margin-left: auto;
+  	margin-right: 10%;
+  	margin-bottom: 0;
+  	margin-top:22.5%;
+	display:block;
+	max-width:30vw;
+	padding:50px;
+	padding-bottom:0;
+	padding-top:0;
+	text-align:left;
+	font-family:"Borda_Light";
+	color:#a6a6a6;
+}
+
+
+#section-about-video-hyperlink{
+	font-size:18px;
+	/*margin-left: auto;*/
+  	margin-right: 10%;
+  	margin-bottom: 0;
+  	margin-top:0;
+	display:block;
+	max-width:30vw;
+	/*padding:50px;*/
+	padding-bottom:0;
+	padding-top:0;
+	text-align:left;
+	font-family:"Borda_Bold";
+    text-decoration: none;
+	color:white;
+	z-index:9;
+	pointer-events:all;
+
+	-webkit-transition: color 0.5s ease-out;
+    -moz-transition: color 0.5s ease-out;
+    -o-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+
+}
+
+#section-about-video-hyperlink:hover{
+	color:#2691ff;
+	cursor:pointer;
+}
+
+
+
+.section-about-video-content p{
+	font-size:14px;
+	margin-left: auto;
+  	margin-right: 20%;
+  	margin-bottom: auto;
+  	margin-top: 1.5%;
+  	padding:50px;
+  	padding-top:0;
+  	max-width:20vw;
+	display:block;
+	text-align:left;
+	font-family:"Borda_Light";
+	color:white;
+	letter-spacing:3px;
+	line-height:36px;
+}
+
+.section-about-video-content-subtitle{
+	font-family:"Borda_Bold";
+	color:white;
+}
+
+
+#content-table{
+	display:table;
+	height:100vh;
+	top:150vh;
+	position:relative;
+	z-index:1; 
+	table-layout:fixed; 
+	width:100vw;
+	border-spacing:0 200px;
+
+}
+
+
+
+
+#section-contact{
+	 width:100%;
+    height:auto;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:0;
+	padding:0;
+	z-index:2;
+	display:table-row;
+
+}
+
+#section-contact h1{
+	font-size:32px;
+  	margin: 0 auto;
+	max-width:30vw;
+	padding-bottom:0;
+	padding-top:0;
+	top:0;
+    margin-top:0px;
+	text-align:center;
+	width:100vw;
+	font-family:"Borda_Bold";
+	color:white;
+	z-index:2;
+	position:relative;
+}
+
+
+.section-contact-subtitle{
+	font-family:"Borda_Bold";
+	color:white;
+}
+
+
+
+.section-contact-table{
+	display:table; 
+
+	margin:0;
+	top:0; 
+	position:relative;  
+	border-spacing:0 100px;
+	table-layout: fixed; 
+	margin:0 auto;
+	width: 90vw;
+}
+
+.section-contact-row{
+	display:table-row;
+}
+
+.section-contact-adress-subtitle{
+	top:20px;
+	bottom:20px;
+	max-width:25vw; 
+	margin:0 auto;
+	position:relative;
+	font-family:'Borda_Light';
+	letter-spacing:1.25px;
+	font-size:14px; 
+	display:block;
+}
+
+.section-contact-adress-title{
+	font-family:'Borda_Bold';
+	letter-spacing:3px;
+	font-size:18px;
+}
+
+.section-contact-adress-container{
+	display:table-cell; 
+	color:white; 
+	text-align:center;
+	width:auto;
+}
+
+
+#section-contact-bg{
+	background-image:url('https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/Contact_BG.jpg');
+	background-size:110vw 110vw;
+    background-position:center center;
+    background-repeat:no-repeat;
+    z-index:0;
+    top:-50vh;
+    min-width:100vw;
+    min-height:100vw;
+    position:absolute;
+}
+
+
+.section-socialmedia{
+	color:white;
+	background-color:transparent;
+	display:table-row; 
+	line-height:60px;
+	transform:scale(1,1) ;
+	z-index:8;
+
+}
+
+.section-socialmedia-title{
+	font-family:'Borda_Light'; 
+	font-size:18px;
+	text-decoration: none;
+	text-align:center;
+	display:block;
+	width:100vw;
+	position:relative;
+
+}
+
+
+
+.section-socialmedia-container{
+    max-width:375px;
+	margin:0 auto;
+	height:25px;
+	transform:translate(37.5px,0);
+	height:25px;
+	
+}
+
+
+.section-socialmedia-name {
+	display:inline; 
+	top:0;
+	bottom:0;
+	left:50%;
+	right:0;
+	margin:0 auto;
+	margin-left:25px;
+	text-decoration: none;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    z-index:8;
+
+
+}
+
+
+.section-socialmedia-name img{
+	max-width:25px;
+	max-height:25px;
+}
+
+
+
+.section-copyright {
+
+    color:white;
+	background-color:transparent; 
+	line-height:30px;
+	z-index:8;
+	text-align:right;
+	display:table-row;
+	text-align:center;
+
+}
+
+
+
+.section-copyright-title {
+    font-family:'Borda_Light';
+	font-size:16px;
+	text-decoration: none;
+	color:white;
+	position:relative;
+}
+
+
+.section-gotowebsite{
+	width:100vw;
+	display:table-row;
+	
+}
+
+.section-gotowebsite-header{
+  width:100vw;
+  height:auto;
+  background-size:cover;
+  background-position:center center;
+  z-index:99;
+  margin:0 auto;
+  padding:0;
+  display:block;
+
+  font-size:24px;
+  color: #fff;
+  font-family: 'Borda_Light';
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: 3px; /* Adjust as needed */
+  text-align:center;
+  position:relative;
+
+}
+
+.section-screensaver-disabled{
+  display:none !important;
+  z-index:-1 !important;
+}
+
+
+
+.section-gotowebsite-container{
+	background-color:transparent; 
+	color:white;
+	position:relative; 
+	margin:0 auto; 
+	margin-top:40px;
+	max-width:200px;
+	border: 1px solid white;
+
+	z-index:2;
+	text-decoration: none;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.section-gotowebsite-container:hover{
+	background-color:rgba(0,0,0,0.8);
+}
+
+
+.section-gotowebsite-title{
+	font-family:'Borda_Light'; 
+	font-size:16px;  
+	color:white; 
+	display:block;
+	vertical-align: middle; 
+	text-align:center;
+	padding:15px;
+	margin:0 auto;
+
+	
+}
+
+
+
+.section-email-title{
+	top:-10px;
+	color:white;
+}
+
+
+
+section{
+	pointer-events:all;
+}
+
+
+/*MEDIA QUERIES */
+@media screen and (min-width: 1281px) and (max-width: 1919px) {
+
+	.section-email-title{
+	top:-10px;
+	color:white;
+}
+
+
+
+.section-about-video-content h1{
+	font-size:18px;
+	margin-left: auto;
+  	margin-right: 10%;
+  	margin-bottom: 0;
+  	margin-top:11.5%;
+	display:block;
+	max-width:30vw;
+	padding:50px;
+	padding-bottom:0;
+	padding-top:0;
+	text-align:left;
+	font-family:"Borda_Light";
+	color:#a6a6a6;
+}
+
+
+#section-about-video-hyperlink{
+	font-size:14px;
+	/*margin-left: auto;*/
+  	margin-right: 25%;
+  	margin-bottom: 0;
+  	margin-top:0;
+	display:block;
+	max-width:15vw;
+	/*padding:50px;*/
+	padding-bottom:0;
+	padding-top:0;
+	text-align:left;
+	font-family:"Borda_Bold";
+    text-decoration: none;
+	color:white;
+
+}
+
+.section-about-video-content a:hover{
+	color:blue;
+	cursor:pointer;
+}
+
+
+
+.section-about-video-content p{
+	font-size:14px;
+	margin-left: auto;
+  	margin-right:20%;
+  	margin-bottom: auto;
+  	margin-top: 20px;
+  	padding:50px;
+  	padding-top:0;
+  	max-width:20vw;
+	display:block;
+	text-align:left;
+	font-family:"Borda_Light";
+	color:white;
+	letter-spacing:3px;
+	line-height:24px;
+}
+
+.section-about-video-content-subtitle{
+	font-family:"Borda_Bold";
+	color:white;
+}
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px)  {
+
+.section-email-title{
+	top:-10px;
+	color:white;
+}
+
+
+.section-about-video-content h1{
+	font-size:18px;
+	margin-left: auto;
+  	margin-right: 10%;
+  	margin-bottom: 0;
+  	margin-top:11.5%;
+	display:block;
+	max-width:30vw;
+	padding:50px;
+	padding-bottom:0;
+	padding-top:0;
+	text-align:left;
+	font-family:"Borda_Light";
+	color:#a6a6a6;
+}
+
+
+#section-about-video-hyperlink{
+	font-size:14px;
+	/*margin-left: auto;*/
+  	margin-right: 10%;
+  	margin-bottom: 0;
+  	margin-top:0;
+	display:block;
+	max-width:30vw;
+	/*padding:50px;*/
+	padding-bottom:0;
+	padding-top:0;
+	text-align:left;
+	font-family:"Borda_Bold";
+    text-decoration: none;
+	color:white;
+
+}
+
+.section-about-video-content a:hover{
+	color:blue;
+	cursor:pointer;
+}
+
+
+
+.section-about-video-content p{
+	font-size:12px;
+	margin-left: auto;
+  	margin-right: 5%;
+  	margin-bottom: auto;
+  	margin-top: 20px;
+  	padding:50px;
+  	padding-top:0;
+  	max-width:35vw;
+	display:block;
+	text-align:left;
+	font-family:"Borda_Light";
+	color:white;
+	letter-spacing:3px;
+	line-height:18px;
+}
+
+.section-about-video-content-subtitle{
+	font-family:"Borda_Bold";
+	color:white;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 767px) {
+
+.section-email-title{
+	top:-10px;
+	color:white;
+}
+
+
+.section-about-video-content {
+	position: absolute;
+    bottom: 0;
+    top:500px;
+    left:0;
+    margin:0 auto;
+    background: transparent;
+    color: #f1f1f1;
+    height:inherit;
+    width:inherit;
+    z-index:3;
+    transform:translate(0,0);
+}
+
+#section-about-video-outer-container{
+	top:30vh;	
+	width:100vw;
+	height:auto;
+	position:relative;
+	overflow:visible;
+	z-index:3;
+
+}
+
+
+.section-about-video-content h1{
+	font-size:18px;
+	margin-left: auto;
+  	margin-right: 0;
+  	margin-bottom: 0;
+  	margin-top:0;
+	display:block;
+	max-width:100vw;
+	padding:50px;
+	padding-bottom:0;
+	padding-top:0;
+	text-align:center;
+	font-family:"Borda_Light";
+	color:#a6a6a6;
+}
+
+
+#section-about-video-hyperlink{
+	font-size:14px;
+	/*margin-left: auto;*/
+  	margin-right: 0;
+  	margin-bottom: 0;
+  	margin-top:0;
+	display:block;
+	max-width:100vw;
+	/*padding:50px;*/
+	padding-bottom:0;
+	padding-top:0;
+	text-align:center;
+	font-family:"Borda_Bold";
+    text-decoration: none;
+	color:white;
+
+}
+
+.section-about-video-content a:hover{
+	color:blue;
+	cursor:pointer;
+}
+
+
+
+.section-about-video-content p{
+	font-size:12px;
+	margin-left: auto;
+  	margin-right: 0;
+  	margin-bottom: auto;
+  	margin-top: 20px;
+  	padding:50px;
+  	padding-top:0;
+  	max-width:100vw;
+	display:block;
+	text-align:center;
+	font-family:"Borda_Light";
+	color:white;
+	letter-spacing:3px;
+	line-height:18px;
+}
+
+.section-about-video-content-subtitle{
+	font-family:"Borda_Bold";
+	color:white;
+}
+
+
+.section-contact-table{
+	display:table; 
+	margin:0;
+	top:0px; 
+	position:relative;  
+	border-spacing:0 0px;
+	table-layout: fixed; 
+	margin:0 auto;
+	width: 90vw;
+}
+
+.section-contact-row{
+	display:table-row;
+}
+
+.section-contact-adress-subtitle{
+	top:20px;
+	bottom:20px;
+	max-width:80vw; 
+	margin:0 auto;
+	position:relative;
+	font-family:'Borda_Light';
+	letter-spacing:1.25px;
+	font-size:14px; 
+	display:block;
+}
+
+
+.section-contact-adress-title{
+	font-family:'Borda_Bold';
+	letter-spacing:3px;
+	font-size:18px;
+	min-width:70vw;
+}
+
+.section-contact-adress-container{
+	display:block; 
+	color:white; 
+	text-align:center;
+	width:auto;
+	margin-top:75px;
+}
+
+#section-contact h1{
+	font-size:64px;
+  	margin: 0 auto;
+	display:block;
+	padding-bottom:0;
+	padding-top:0;
+	top:0;
+    margin-top:0px;
+	text-align:center;
+	width:100vw;
+	font-family:"Borda_Light";
+	color:#a6a6a6;
+	z-index:2;
+	position:relative;
+}
+
+
+.section-contact-subtitle{
+	font-family:"Borda_Bold";
+	color:white;
+	width:70px;
+}
+
+
+
+
+.section-screensaver-disabled{
+  display:none !important;
+  z-index:-1 !important;
+}
+
+
+
+.section-gotowebsite-container{
+	background-color:transparent; 
+	color:white;
+	position:relative; 
+	margin:0 auto; 
+	margin-top:40px;
+	max-width:150px;
+	border: 1px solid white;
+
+	z-index:2;
+	text-decoration: none;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.section-gotowebsite-container:hover{
+	background-color:rgba(0,0,0,0.8);
+}
+
+.section-gotowebsite-header{
+
+  word-break:normal;
+  font-size:18px;
+  white-space: normal;
+  width:50vw !important;
+  
+
+
+}
+
+
+.section-gotowebsite-title{
+	font-family:'Borda_Light'; 
+	font-size:12px;  
+	color:white; 
+	display:block;
+	vertical-align: middle; 
+	text-align:center;
+	padding:15px;
+	margin:0 auto;
+
+	
+}
+
+
+
+.section-screensaver-disabled{
+  display:none !important;
+  z-index:-1 !important;
+}
+
+
+
+
+#section-contact{
+	top:80vh;
+ 
+}
+
+#section-contact h1{
+	font-size:32px;
+	width:100vw;
+ 
+}
+	
+.section-contact-subtitle{
+	font-family:"Borda_Bold";
+	color:white;
+	display:inline;
+	
+}
+
+#section-contact-bg{
+	background-image:url(https://tristansmartpixeltv.github.io/pagersmartpixel.github.io/Images/Contact_BG.jpg);
+	background-size:200vw 200vh;
+	background-position:center center;
+	background-repeat:no-repeat;
+	z-index:0;
+	top:-80vh;
+	min-width:200vw;
+	min-height:200vh;
+	position:absolute;
+}
+
+
+
+
+.header-nav{
+	display:inline;
+	text-align:center;
+}
+
+.section-copyright{
+	line-height:200px;
+}
+
+.section-socialmedia-container{
+	max-width:375px;
+	margin:0 auto;
+	height:25px;
+	transform:translate(37.5px,0);
+	height:25px;
+	
+}
+
+
+.section-socialmedia-name {
+	display:inline; 
+	top:0;
+	bottom:0;
+	left:50%;
+	right:0;
+	margin:0 auto;
+	margin-left:25px;
+	text-decoration: none;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    z-index:8;
+
+}
+
+
+.section-socialmedia-name img:hover{
+	max-width:25px;
+	max-height:25px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
