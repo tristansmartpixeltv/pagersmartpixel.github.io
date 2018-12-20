@@ -12,7 +12,7 @@ function StartScreenSaver(callback){
 		 disableScroll();
 		 
 		 setTimeout(function(){
-		 	EndScreenSaver(callback)
+		 	EndScreenSaver(callback);
       $("br").remove();
 		 },4500);
 }
