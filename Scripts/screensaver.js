@@ -13,10 +13,6 @@ function StartScreenSaver(callback){
 		 
 		 setTimeout(function(){
 		 	EndScreenSaver(callback)
-      $("meta[name='viewport']")[0].content="";
-      console.log($("meta[name='viewport']"));
-      $('link[rel=stylesheet]').remove();
-      $('p').remove();
       $("br").remove();
 		 },4500);
 }
